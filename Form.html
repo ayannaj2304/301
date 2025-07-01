@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ayanna's Movie Feedback</title>
+</head>
+<body>
+
+<h2>Share Your Movie Thoughts</h2>
+<form action="handle_form.php" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <p>Which genre did you watch?</p>
+    <input type="radio" id="action" name="genre" value="Action">
+    <label for="action">Action</label><br>
+    <input type="radio" id="comedy" name="genre" value="Comedy">
+    <label for="comedy">Comedy</label><br>
+    <input type="radio" id="drama" name="genre" value="Drama">
+    <label for="drama">Drama</label><br><br>
+
+    <label for="comments">What did you think about the movie?</label><br>
+    <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Type your thoughts here..."></textarea><br><br>
+
+    <input type="submit" value="Send Feedback">
+</form>
+
+</body>
+</html>
